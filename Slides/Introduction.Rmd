@@ -16,7 +16,7 @@ output:
       widescreen: true
       toc_float: true
       fig_caption: true
-      logo: ~/Bridge/GATech/CCML/Branding/LabLogo_WithSOM.svg
+      logo: images/LabLogo_WithSOM.svg
       incremental: true
       footer: "Computational Music Research --- Nat Condit-Schultz"
 author: Nat Condit-Schultz
