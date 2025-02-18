@@ -1,0 +1,199 @@
+---
+title: "Computational Music Research: How to keep it human(ist)"
+subtitle: "...using humdrum(R)."
+output: 
+   rmarkdown::ioslides_presentation:
+      css: ../Tutorials/css/mycss.css
+      df_print: kable
+      smart: true
+      theme: flatly
+      toc: true
+      slide_level: 2
+      number_sections: false
+      duration: 10
+      fig_height: 7
+      fig_width: 10
+      widescreen: true
+      toc_float: true
+      fig_caption: true
+      logo: ~/Bridge/GATech/CCML/Branding/LabLogo_WithSOM.svg
+      incremental: true
+      footer: "Computational Music Research --- Nat Condit-Schultz"
+author: Nat Condit-Schultz
+date: Feb 19, 2025
+---
+
+
+```{css, echo = FALSE}
+.gdbar img {
+  width: 740px !important;
+  height: 100px !important;
+  margin: 10px 10px;
+}
+
+.gdbar {
+  width: 840px !important;
+  height: 120px !important;
+}
+
+slides > slide:not(.nobackground):before {
+  width: 500px;
+  height: 80px;
+  background-size: 400px 350px;
+}
+
+slides > slide.dark {
+  background: #003057 !important;
+}
+
+slides > h2 h3 {
+  color: red !important; 
+
+}
+
+.note {
+  width: 100%;
+  padding: 0em;
+  
+
+}
+.note > section {
+   padding: 0em;
+   width:100% !important;
+   height:100% !important;
+}
+.note > section > iframe {
+  width:100%;
+  height:100%;
+
+}
+
+
+.segue > h2 h3 {
+  color: #003057 !important;
+}
+
+.prettyprint {
+  background-color: white;
+
+}
+
+pre {
+  left: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 28px;
+}
+
+
+```
+
+```{r echo=FALSE}
+library(shiny)
+```
+
+
+We will be using this Posit Cloud sandbox environment.
+
+<https://posit.cloud/content/9055786>
+
+![](images/PositLink_SMT_MIG_2024.png)
+
++ Feel free to follow along!
+
+
+# Humdrum
+
+
+----
+
+
+Humdrum is a system for computational musicology created by David Huron, circa 1989--1995.
+
++ The humdrum ecosystem includes:
+  + A data format
+    + The "*humdrum syntax*"
+  + Software
+    + The original *humdrum toolkit* 
+    + Craig Sapp's *Verovio Humdrum Viewer*
+    + My humdrum$_{\mathbb{R}}$
+
+
+
+## The Humdrum Syntax
+
+
+The humdrum "syntax" is a simple tabular format, emphasizing transparency (read/write ease) and musicological flexibility.
+
++ Lots of musical information can be represented.
++ The standard representation for conventional notation is called `**kern`.
+
+---
+
+
+```{r, echo = FALSE, eval = TRUE, results = 'asis'}
+txt <- readLines('M179.txt')
+
+# txt <- paste0('!!!filter:%20extract%20-s%201-4,0%0A', txt)
+
+str <- tags$div(class = 'notes', tags$iframe(src = paste0('https://verovio.humdrum.org/?k=E&t=', txt), width = '1600px', height = '2000px', title="Verovio Humdrum Viewer"))
+str
+```
+
+---
+
+Tens of thousands of `**kern` scores are available.
+
++ Possible to include *any* arbitrary information
+  + Harmonic information
+  + Formal information
+  + Dance steps, emotion annotations, fingerings, 
+  + etc.
+
+
+## humdrumR
+
+Humdrum$_{\mathbb{R}}$ is a new, R-based, software for analyzing humdrum data.
+
+![](images/humdrumR_light.svg)
+
++ Enhanced functionality compared to the original humdrum toolkit.
+
+
+
+# Representing Music
+
+## Music as Data
+
+A music encoding is a representation of musical events (notes, chords) or structures (meter, tonality).
+
++ No encoding is perfect.
+  + Encodings are at best imperfect measurements of "real" structures.
++ There are many ways we can represent musical information.
+  + Different approaches reveal different information.
+
+----
+
+Today we'll use humdrum$_{\mathbb{R}}$ to explore and discuss basic questions about pitch data.
+
++ I'll draw on three datasets:
+  + The 371 Bach chorales
+  + The CoCoPops corpus of rock/pop vocal transcriptions
+  + The Saraga dataset of Hindustani performances.
+  
+----
+
+
+Discussion items:
+
++ Concerning pitch representation
++ Concerning methodology
++ Concerning pedagogy
+
+---
+
+Once you're in the posit cloud environment, click `Files > Tutorials > Pitch.Rmd` then press "Run Document."
+
+
+<https://posit.cloud/content/9055786>
+
+![](images/PositLink_SMT_MIG_2024.png)

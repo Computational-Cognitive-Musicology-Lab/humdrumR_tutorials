@@ -1,0 +1,665 @@
+**harm	**kern	**silbe
+*M4/4	*ICvox	*
+*	*VRlead	*
+*	*Hstimme	*
+*C:	*C:	*
+*	*M4/4	*
+*	*clefF4	*
+1r;	r;	.
+=1	=1	=1
+*>Letter>A	*>Letter>A	*>Letter>A
+*>Label>Intro	*>Label>Intro	*>Label>Intro
+1IV7	1r	.
+=2	=2	=2
+1IV7	1r	.
+=3	=3	=3
+1I7	1r	.
+=4	=4	=4
+1vi7	2r	.
+.	4r	.
+.	8dq	_
+.	8e	I
+.	8f	was
+=5	=5	=5
+*>Letter>B	*>Letter>B	*>Letter>B
+*>Label>Verse	*>Label>Verse	*>Label>Verse
+1ii7	8e	sit-
+.	16c	-tin'
+.	[16c	all
+.	16c]	_
+.	16A	a-
+.	8c	-lone
+.	4r	.
+.	8e	wat-
+.	8f	-chin'
+=6	=6	=6
+1V7	8e	peo-
+.	8c	-ple
+.	16c	get
+.	16A	it
+.	8cq	_
+.	[8d	on
+.	8d]	_
+.	8r	.
+.	16A	with
+.	8.A	each
+=7	=7	=7
+.	8Gq	_
+1I7	8.A	o-
+.	[16G	-ther
+.	8G]	_
+.	8r	.
+.	2r	.
+=8	=8	=8
+1vi7	2r	.
+.	4r	.
+.	8dq	_
+.	8e	They
+.	8f	were
+=9	=9	=9
+1ii7	8e	dan-
+.	16c	-cin'
+.	[16c	'cross
+.	16c]	_
+.	16A	the
+.	8c	floor
+.	4r	.
+.	8e	tur-
+.	8f	-nin',
+=10	=10	=10
+.	8dq	_
+1V7	8e	mo-
+.	8c	-vin'
+.	16c	back
+.	8A	and
+.	16cQ	_
+.	[16d	forth
+.	8d]	_
+.	8r	.
+.	8A	they
+.	8A	were
+=11	=11	=11
+.	8Gq	_
+1I7	8.A	lo-
+.	[16G	-vers
+.	8G]	_
+.	8r	.
+.	2r	.
+=12	=12	=12
+*	*	*
+2v7	2r	.
+2Im7	4c	One
+.	8cq	_
+.	4d	more
+=13	=13	=13
+*>Letter>C	*>Letter>C	*>Letter>C
+*>Label>Prechorus	*>Label>Prechorus	*>Label>Prechorus
+1IV7	4e	lone-
+.	8f	-ly
+.	8e	night
+.	4r	.
+.	8c	for
+.	16c	me
+.	[16G	_
+=14	=14	=14
+1iii7	4G]	_
+.	4r	.
+.	8r	.
+.	8c	I
+.	8d	looked
+.	8dq	_
+.	8e	up
+=15	=15	=15
+1IV7	4r	.
+.	8r	.
+.	8f	what
+.	8e	did
+.	4a	I
+.	8gq	_
+.	8a	see
+=16	=16	=16
+.	8aq	_
+1V	8a	_
+.	[4.g	_
+.	8g]	_
+.	8a	_
+.	4r	.
+=17	=17	=17
+*>Letter>D	*>Letter>D	*>Letter>D
+*>Label>Chorus	*>Label>Chorus	*>Label>Chorus
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	8r	.
+.	16c	mo-
+.	16d	-vin'
+=18	=18	=18
+1IV7	8e	'cross
+.	16e	the
+.	[16d	floor,
+.	8d]	_
+.	16c	got
+.	16d	me
+.	8e	wan-
+.	16e	-tin
+.	32c	more
+.	[32A	_
+.	8A]	_
+.	8r	.
+=19	=19	=19
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+=20	=20	=20
+1vi7	1r	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+=21	=21	=21
+*	*	*
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	.	.
+.	.	.
+.	8r	.
+.	16c	Get-
+.	16d	-tin'
+=22	=22	=22
+1IV7	8e	down
+.	.	.
+.	16e	with
+.	16e	you
+.	16r	.
+.	16A	I
+.	16c	wan-
+.	16d	-na
+.	32e	move
+.	16.A	_
+.	16A	with
+.	16A	y-
+.	8A	-you
+.	.	.
+.	8r	.
+=23	=23	=23
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+=24	=24	=24
+4.iii7	1r	.
+4vi	.	.
+4.VI7	.	.
+=25	=25	=25
+*>Letter>E	*>Letter>E	*>Letter>E
+*>Label>Interlude	*>Label>Interlude	*>Label>Interlude
+1IV7	1r	.
+=26	=26	=26
+1iii7	1r	.
+=27	=27	=27
+1IV7	1r	.
+=28	=28	=28
+1V	2r	.
+.	4r	.
+.	8dq	_
+.	8e	I
+.	8f	got
+=29	=29	=29
+*>Letter>B	*>Letter>B	*>Letter>B
+*>Label>Verse	*>Label>Verse	*>Label>Verse
+1ii7	8e	up
+.	16c	and
+.	[16c	took
+.	16c]	_
+.	8A	your
+.	16c	hand
+.	4r	.
+.	8e	and
+.	8f	we
+=30	=30	=30
+.	8d#q	_
+1V7	8e	both
+.	16c	be-
+.	[16c	-gan
+.	16c]	_
+.	16A	to
+.	8cq	_
+.	[8d	dance
+.	8d]	_
+.	8r	.
+.	8r	.
+.	16A	to
+.	16A	the
+=31	=31	=31
+.	8Gq	_
+1I7	8.A	mu-
+.	[16G	-sic
+.	8G]	_
+.	8r	.
+.	2r	.
+=32	=32	=32
+1vi7	2r	.
+.	8r	.
+.	8d#q	_
+.	4e	Ooh,
+.	8dq	_
+.	8f	your
+=33	=33	=33
+1ii7	8e	ma-
+.	8c	-gic
+.	8c	cast
+.	16A	a
+.	16c	spell
+.	4r	.
+.	16r	.
+.	16~G	it
+.	16e	did-
+.	16f	-n't
+=34	=34	=34
+.	8dq	_
+1V7	8e	take
+.	8c	long
+.	16c	'till
+.	8A	we
+.	16cQ	_
+.	[16d	fell
+.	8d]	_
+.	8r	.
+.	8A	and
+.	8Gq	_
+.	8A	we
+=35	=35	=35
+.	8Gq	_
+1I7	8.A	knew
+.	[16G	it
+.	8G]	_
+.	8r	.
+.	2r	.
+=36	=36	=36
+2v7	2r	.
+.	8Bq	_
+2Im7	4c	No
+.	8cq	_
+.	4d	more
+=37	=37	=37
+*>Letter>C	*>Letter>C	*>Letter>C
+*>Label>Prechorus	*>Label>Prechorus	*>Label>Prechorus
+1IV7	4e	lone-
+.	8f	-ly
+.	8e	nights
+.	4r	.
+.	8c	for
+.	16c	me
+.	[16G	_
+=38	=38	=38
+1iii7	4G]	_
+.	4r	.
+.	8r	.
+.	8G 8c	This
+.	8A 8d	is
+.	8Aq 8dq	_
+.	[8c [8e	how
+=39	=39	=39
+*	*clefG2	*
+1IV7	8c] 8e]	_
+.	8r	.
+.	8r	.
+.	8c 8f	it's
+.	4A 4e	gon-
+.	8d 8a	-na
+.	8gq	_
+.	8d 8a	be
+=40	=40	=40
+1V	2d [2g	_
+.	8r 8g]	_
+.	8r 8a	_
+.	4r	.
+=41	=41	=41
+*>Letter>D	*>Letter>D	*>Letter>D
+*>Label>Chorus	*>Label>Chorus	*>Label>Chorus
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	8r	.
+.	16c	mo-
+.	16d	-vin'
+=42	=42	=42
+1IV7	8e	'cross
+.	16e	the
+.	[16d	floor,
+.	8d]	_
+.	16c	got
+.	16d	me
+.	8e	wan-
+.	16e	-tin
+.	32c	more
+.	[32A	_
+.	8A]	_
+.	8r	.
+=43	=43	=43
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16d	eyes
+.	24B] 24d]	_
+.	12A 12c	_
+.	8G 8B	_
+.	2r	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+=44	=44	=44
+1vi7	1r	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+.	.	.
+=45	=45	=45
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	.	.
+.	.	.
+.	8r	.
+.	16c	Get-
+.	16d	-tin'
+=46	=46	=46
+1IV7	8e	down
+.	.	.
+.	16e	with
+.	16e	you
+.	16r	.
+.	16A	I
+.	16c	wan-
+.	16d	-na
+.	32e	move
+.	16.A	_
+.	16A	with
+.	16A	y-
+.	8A	-you
+.	.	.
+.	8r	.
+.	.	.
+=47	=47	=47
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+=48	=48	=48
+4.iii7	2r	.
+4vi	.	.
+.	8r	.
+4.VI7	16f	(Grunt)
+.	16c	_
+.	4r	.
+=49	=49	=49
+*>Letter>B	*>Letter>B	*>Letter>B
+*>Label>Solo	*>Label>Solo	*>Label>Solo
+1ii7	1r	.
+=50	=50	=50
+1V7	1r	.
+=51	=51	=51
+1I7	1r	.
+=52	=52	=52
+1vi7	1r	.
+=53	=53	=53
+1ii7	1r	.
+=54	=54	=54
+1V7	1r	.
+=55	=55	=55
+1I7	1r	.
+=56	=56	=56
+2v7	2r	.
+.	8Bq	_
+2Im7	4c	No
+.	8cq	_
+.	4d	more
+=57	=57	=57
+*>Letter>C	*>Letter>C	*>Letter>C
+*>Label>Prechorus	*>Label>Prechorus	*>Label>Prechorus
+1IV7	4e	lone-
+.	8f	-ly
+.	8e	nights
+.	4r	.
+.	8c	for
+.	16c	me
+.	[16G	_
+=58	=58	=58
+1iii7	4G]	_
+.	4r	.
+.	8r	.
+.	8G 8c	This
+.	8A 8d	is
+.	8Aq 8dq	_
+.	[8c [8e	how
+=59	=59	=59
+1IV7	8c] 8e]	_
+.	8r	.
+.	8r	.
+*	*clefG2	*
+.	8c 8f	it's
+.	4A 4e	gon-
+.	8d 8a	-na
+.	8gq	_
+.	8d 8a	be
+=60	=60	=60
+1V	2d [2g	_
+.	8r 8g]	_
+.	8r 8a	_
+.	4r	.
+=61	=61	=61
+*>Letter>D	*>Letter>D	*>Letter>D
+*>Label>Chorus	*>Label>Chorus	*>Label>Chorus
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	.	.
+.	8r	.
+.	16c	mo-
+.	16d	-vin'
+=62	=62	=62
+1IV7	8e	'cross
+.	16e	the
+.	[16d	floor,
+.	8d]	_
+.	16c	got
+.	16d	me
+.	8e	wan-
+.	16e	-tin
+.	32c	more
+.	[32A	_
+.	8A]	_
+.	8r	.
+=63	=63	=63
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16d	eyes
+.	24B] 24d]	_
+.	12A 12c	_
+.	8G 8B	_
+.	2r	.
+=64	=64	=64
+1vi7	1r	.
+.	.	.
+.	.	.
+.	.	.
+=65	=65	=65
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	.	.
+.	.	.
+.	8r	.
+.	16c	Get-
+.	16d	-tin'
+=66	=66	=66
+1IV7	8e	down
+.	.	.
+.	16e	with
+.	16e	you
+.	16r	.
+.	16A	I
+.	16c	wan-
+.	16d	-na
+.	32e	move
+.	16.A	_
+.	16A	with
+.	16A	y-
+.	8A	-you
+.	.	.
+.	8r	.
+.	.	.
+=67	=67	=67
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+=68	=68	=68
+4.iii7	2r	.
+.	.	.
+4vi	.	.
+.	8r	.
+4.VI7	4.e	Ooh,
+=69	=69	=69
+*>Label>>Fadeout	*>Label>>Fadeout	*>Label>>Fadeout
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	8r	.
+.	16c	Get-
+.	16d	-tin'
+=70	=70	=70
+1IV7	8e	down
+.	16e	with
+.	16e	you
+.	16r	.
+.	16A	I
+.	16c	wan-
+.	16d	-na
+.	32e	move
+.	16.A	_
+.	16A	with
+.	16A	y-
+.	8A	-you
+.	8r	.
+=71	=71	=71
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+.	.	.
+.	.	.
+.	.	.
+=72	=72	=72
+1vi7	1r	.
+.	.	.
+.	.	.
+.	.	.
+=73	=73	=73
+1IV7	8e 8g	Se-
+.	16e 16g	-xy
+.	[16d [16f	eyes
+.	8d] 8f]	_
+.	8r	.
+.	4r	.
+.	.	.
+.	.	.
+.	8r	.
+.	16c	Get-
+.	16d	-tin'
+=74	=74	=74
+1IV7	8e	down
+.	.	.
+.	16e	with
+.	16e	you
+.	16r	.
+.	16A	I
+.	16c	wan-
+.	16d	-na
+.	32e	move
+.	16.A	_
+.	16A	with
+.	16A	y-
+.	8A	-you
+.	.	.
+.	8r	.
+.	.	.
+=75	=75	=75
+1I7	8B 8e	se-
+.	16B 16e	-xy
+.	[16B [16e	eyes
+.	24B] 24e]	_
+.	12A 12d	_
+.	8G 8B	_
+.	2r	.
+=76	=76	=76
+4.iii7	1r	.
+4vi	.	.
+4.VI7	.	.
+=77	=77	=77
+1IV7	1r	.
+1r;	r;	.
+*-	*-	*-
+!!!BillboardChartDate: 1980/03/08
+!!!BillboardPeak: 5
+!!!BillboardWeeksOnChart: 21
+!!!COC: Dr. Hook
+!!!ENC: Nathaniel Condit-Schultz
+!!!EST: Awating manual error checking and editing.
+!!!OTL: Sexy Eyes
+!!!RDF**harte: Chris Harte's syntax, used by MIREX
+!!!RDF**harmony: **recip + pitch class of root + harmonic quality
+!!!RDF**leadinstrument: original McGill primary instrumentation annotation
+!!!RDF**phrase: newline = linebreak in original McGill transcription
+!!!RDF**timestamp: McGill audio timestamp in seconds
+!!!RDT: 2017/01/12/
+!!!SampleActualRank: 48
+!!!SampleID#: 0831
+!!!SampleTargetRank: 48
+!!!EMD: Edited in humdrumR 0.7.0.7 on 2024-11-06
