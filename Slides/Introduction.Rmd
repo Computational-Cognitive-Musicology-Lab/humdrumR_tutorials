@@ -94,9 +94,8 @@ library(shiny)
 
 We will be using this Posit Cloud sandbox environment.
 
-<https://posit.cloud/content/9055786>
+<https://posit.cloud/content/9786145>
 
-![](images/PositLink_SMT_MIG_2024.png)
 
 + Feel free to follow along!
 
