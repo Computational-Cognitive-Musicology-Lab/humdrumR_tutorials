@@ -41,6 +41,7 @@ options(width = 200)
 In this tutorial, we explore different representations of pitch *information*, including both theoretical/conceptual definitions and quantitative definitions based in information theory.
 Throughout, we will use humdrum$_{\mathbb{R}}$ code to ground our discussion in empirical observation of real music data.
 
+Documentation for humdrum$_{\mathbb{R}}$ can be found [here](https://humdrumr.ccml.gtcmt.gatech.edu/).
 
 ## Data
 
@@ -55,12 +56,15 @@ We can read these datasets into R using humdrum$_{\mathbb{R}}$:
 ```{r,  message = FALSE, eval = FALSE}
 library(humdrumR)
 
+# bach and cocopops are easy: 
 bach <- readHumdrum('../Data/Bach370/.*krn')
 cocopops <- readHumdrum('../Data/CoCoPops/.*hum')
+
+# a little extra code to preprocess saraga:
 saraga <- readHumdrum('../Data/Saraga/.*freq') |> 
   cleave(1:2) |>
   within(Timestamp = as.numeric(Token), F0 = as.numeric(Spine2))
-
+## we are getting "Timestamp" and "F0" fields
 
 ```
 
@@ -109,14 +113,16 @@ Our three datasets represent radically different sources of pitch information:
 
 + *Bach Chorales*: 
   + Explicitly notated scores. 
-  + Pre-EQT gamut.
+  + Pre EQT-440 gamut.
 + *CoCoPops*: 
   + By-ear transcriptions of recordings. 
-  + Modern EQT gamut but includes blues-inflected music.
+  + Modern EQT-440 gamut but includes blues-inflected music.
 + *Saraga*: 
   + Machine extraction of continuous [$F_0$](https://en.wikipedia.org/wiki/Fundamental_frequency) contours.
   + No absolute gamut (non-Western scale).
 
+> Some researchers will plow ahead like all pitch information is the same!
+> They are thinking like computers, not humanists.
 
 ### Dimensions {.tabset data-progressive=TRUE}
 
@@ -248,9 +254,23 @@ cocopops |> mint(deparser = semits)
 
 ### Explore
 
+As good computational musicologists, we should think about how different aspects of pitch information are encoded in our data.    
 
 
 > **Which pitch translations are lossy and which lossless?**
+
+If a conversion is lossless, you should be able to convert from X to Y, then convert back from Y to X, and get the original X.
+
+$$
+f(g(x)) = x
+$$
+
+
+
+
+
+
+
 
 ```{r pitchexplore, exercise = TRUE}
 
@@ -266,14 +286,6 @@ sciPitch |> solfa() |> pitch() # lossless
 sciPitch |> semits() |> pitch() # lossy
 
 ```
-
-If a conversion is lossless, you should be able to convert from X to Y, then convert back from Y to X, and get the original X.
-
-$$
-f(g(x)) = x
-$$
-
-
 
 
 
@@ -297,19 +309,34 @@ bach |> freq(frequency.reference = 420)
 
 
 ```{r domain-hint-2}
-bach |> deg(Key = 'C:')
+cocopops |> deg(Key = 'C:')
 
 ```
 
 
 ###
 
-+ Absolute pitch height can only be inferred from scores if we have domain knowledge of the tuning system.
-  + Conversely, tonal pitch categories can only be inferred from F0 data if we know the tuning system. 
-+ Scale degrees can only be converted to absolute pitches if we know the key.
-  + Scale-degree data may or may not encode octave as well.
++ <details><summary>**Click to reveal an answer**</summary>Absolute pitch height can only be inferred from scores if we have domain knowledge of the tuning system. All three of our datasets have some questions about their tuning. <details><summary>*Click for more...*</summary>Conversely, tonal pitch categories can only be inferred from F0 data if we know the tuning system.</details></details>
++ <details><summary>**Click to reveal an answer**</summary>Scale degrees can only be converted to specific pitches if we know the key.</details>
++ <details><summary>**Click to reveal an answer**</summary>Scale-degree data may or may not encode octave as well. If we use `solfa(simple = TRUE)`, we discard the original pitch-height information.</details>
   
+###
 
+In summary, any pitch data can be divided up into different aspects:
+
++ Tuning
++ Octave
++ Step
++ Key
++ Alteration/Accidental
++ Ornaments
+
+Different representations of pitch emphasize, or ignore, different aspects. 
+As musicologists, we need to think carefully, and critically, about which aspects are encoding in our data, and the provinence of each.
+
++ For example, Bach himself have us key signatures (but not keys) for his chorales. But where did the CoCoPops key data come from?
+
+###
 
 > **What is the lowest fundamental frequency in the Bach chorales?**
 
