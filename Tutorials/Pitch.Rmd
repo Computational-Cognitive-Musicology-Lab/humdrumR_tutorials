@@ -1,5 +1,5 @@
 ---
-title: Pitch Information
+title: Thinking about Pitch Information
 output:
     learnr::tutorial:
       theme: sandstone

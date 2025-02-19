@@ -6,7 +6,7 @@ output:
       css: ../Tutorials/css/mycss.css
       df_print: kable
       smart: true
-      theme: flatly
+      theme: sandstone
       toc: true
       slide_level: 2
       number_sections: false
