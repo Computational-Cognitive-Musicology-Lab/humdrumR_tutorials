@@ -92,12 +92,40 @@ library(shiny)
 ```
 
 
-We will be using this Posit Cloud sandbox environment.
+# Computational Musicology 
 
-<https://posit.cloud/content/9786145>
++ i.e.,
+  + "systematic musicology"
+  + "music informatics"
+  + "digital humanities"  
+  + "corpus study"
 
 
-+ Feel free to follow along!
+## Computational Musicology | What?
+
+Working with "digital scores"---
+
++ *symbolic* data.
++ representing musical semantics.
+
+
+## Computational Musicology | Why?
+
++ Preservation and distribution (history and heritage)
++ Visualization and engraving (composition and arranging)
++ Search (finding music, recommendation)
++ Engineering (compositional tools)
++ Research (theory/analysis, sociology/psychology)
+
+## Computational Musicology | How?
+
++ Data
+  + Encoding and formatting
+  + Collection/creation and curation
++ Analysis
+  + Writing code!
+  
+
 
 
 # Humdrum
@@ -123,8 +151,18 @@ Humdrum is a system for computational musicology created by David Huron, circa 1
 
 The humdrum "syntax" is a simple tabular format, emphasizing transparency (read/write ease) and musicological flexibility.
 
-+ Lots of musical information can be represented.
-+ The standard representation for conventional notation is called `**kern`.
++ Many aspects of music can be encoding in humdrum.
+  + Notes and chords.
+  + Analytical annotations.
+  + Metadata.
+  + etc.
+
+## The Humdrum Syntax | **kern
+
+The standard humdrum representation for conventional notation is called `**kern`.
+
++ Tens of thousands of `**kern` scores are available.
+  
 
 ---
 
@@ -138,28 +176,75 @@ str <- tags$div(class = 'notes', tags$iframe(src = paste0('https://verovio.humdr
 str
 ```
 
----
 
-Tens of thousands of `**kern` scores are available.
+## The Humdrum Syntax | Beyond **kern
 
-+ Possible to include *any* arbitrary information
-  + Harmonic information
-  + Formal information
-  + Dance steps, emotion annotations, fingerings, 
-  + etc.
+Humdrum is flexible and extensible, making it possible to invent new representations for *any* arbitrary information:
+
++ fingerings
++ phrasing annotations
++ associated dance steps
++ etc.
 
 
-## humdrumR
+## The Humdrum Syntax | Beyond the Cannon
+
+Humdrum can also be adapted for pop or folk, from any musical culture.
+
++ Datasets exist for...
+  + Rock/pop music
+  + Hip hop
+  + Hindustani music
+  + Ojibway and Pawnee song
+  + Japanese folk songs
+  + European folk music
+
+
+
+# humdrumR
+
+
+```{r, echo = FALSE}
+knitr::include_graphics('images/humdrumR.svg')
+```
+
+
+## Humdrum + R
 
 Humdrum$_{\mathbb{R}}$ is a new, R-based, software for analyzing humdrum data.
 
 ![](images/humdrumR_light.svg)
 
-+ Enhanced functionality compared to the original humdrum toolkit.
 
+
+## Humdrum + R 
+
+Humdrum$\mathbb{R}$ is a modern alternative to the original humdrum toolkit.
+
++ Humdrum syntax $\leftrightarrow$ R "tidy" data.table ecosystem
++ Tools for general information processing 
+  + (tabulation, n-grams, information theory, pattern finding)
++ Tools for musical processing 
+  + (transposition, metric position, scale degree)
++ Access to any/all R libraries!
+
+
+## Humdrum + R | Goals
+
++ Flexible/general
+  + Not just "scores"
+  + In particular, system for non-Western music
++ Transparent
+  + Not a black box
+  + Facilitate (and encourage) thoughtful analysis
+    + Make you think about what you are doing
 
 
 # Representing Music
+
+<!-- Music notation is a complex language. Like a natural language, it is always changing, it is at times ambiguous and/or redundant, and can be used in many different ways by different people for different purposes. Because of these qualities, it is impossible to create a perfect software for music notation. -->
+<!-- 			-- Eleanor Selfridge-Field (2014) -->
+
 
 ## Music as Data
 
@@ -179,20 +264,18 @@ Today we'll use humdrum$_{\mathbb{R}}$ to explore and discuss basic questions ab
   + The CoCoPops corpus of rock/pop vocal transcriptions
   + The Saraga dataset of Hindustani performances.
   
-----
+<!-- ---- -->
 
 
-Discussion items:
+<!-- Discussion items: -->
 
-+ Concerning pitch representation
-+ Concerning methodology
-+ Concerning pedagogy
+<!-- + Concerning pitch representation -->
+<!-- + Concerning methodology -->
+<!-- + Concerning pedagogy -->
 
 ---
 
-Once you're in the posit cloud environment, click `Files > Tutorials > Pitch.Rmd` then press "Run Document."
+We will be using this Posit Cloud sandbox environment:  <https://posit.cloud/content/9786145>
+Once you're in `Files > Tutorials > Pitch.Rmd` then press "Run Document" to follow along.
 
-
-<https://posit.cloud/content/9055786>
-
-![](images/PositLink_SMT_MIG_2024.png)
+![](images/PositLink_QR.png)
